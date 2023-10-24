@@ -1,6 +1,6 @@
 from django.core import serializers
 from django.http import HttpResponse
-from test_app.models import Question
+from .models import Question
 
 
 def test(request):
