@@ -14,3 +14,7 @@ class Answer(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)  # 외래키, 연쇄 삭제
     content = models.TextField()
     create_date = models.DateTimeField()
+
+
+class Test(models.Model):
+    name = models.TextField()
